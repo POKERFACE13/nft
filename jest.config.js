@@ -8,6 +8,11 @@ module.exports = {
       lines: 85.87,
       statements: -249
     }
+      // Mock class refs
+  late ApiUser userApi;
+  late AppRoute appRoute;
+  late AppLoading appLoading;
+
   },
   testEnvironment: "node",
   testMatch: ["<rootDir>/test/*(*.)@(spec|test).js?(x)"]
